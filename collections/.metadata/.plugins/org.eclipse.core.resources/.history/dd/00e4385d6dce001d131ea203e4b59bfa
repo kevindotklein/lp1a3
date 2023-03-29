@@ -1,0 +1,41 @@
+package lp1a3;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Collections {
+
+	private static List<String> lista1 = new ArrayList<>();
+	private static List<String> lista2 = new ArrayList<>();
+	private static List<String> lista3 = new LinkedList<>();
+	
+	private static Scanner sc = new Scanner(System.in);
+	
+	private static String[] strings = new String[6];
+	
+	public static void main(String[] args) {
+		System.out.println("lista 1 valor 1");
+		strings[0] = sc.next();
+		System.out.println("lista 1 valor 2");
+		strings[1] = sc.next();
+		
+		System.out.println("lista 2 valor 1");
+		strings[2] = sc.next();
+		System.out.println("lista 2 valor 2");
+		strings[3] = sc.next();
+		
+		System.out.println("lista 3 valor 1");
+		strings[4] = sc.next();
+		System.out.println("lista 3 valor 2");
+		strings[5] = sc.next();
+		
+		sc.close();
+	}
+	
+	public static void adicionar(List<String> lista, String valor) {
+		lista.add(valor);
+	}
+
+}
