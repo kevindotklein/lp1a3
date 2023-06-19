@@ -1,0 +1,5 @@
+Nome: Joao
+Idade: 21 anos
+Gênero: masculino
+Altura: 1.85 metros
+Peso: 80.0 kg
